@@ -1,0 +1,86 @@
+.Gallery h1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 4px 3px #ffcfca;
+  text-align: center;
+  color:#367c7c;
+}
+.Gallery p {
+  color: darkgray;
+  text-align: center;
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.flex-item{
+  margin: 5px;
+}
+.full-gallery{
+  margin-left: 10%;
+  padding-top: 10px;
+  background-color: #f9f9f9;
+}
+@media only screen and (max-width: 2560px) {
+  .full-gallery{
+    margin-left: 10%;
+    width: 90%;
+  }
+  .full-gallery p{
+    font-size: 200%;
+  }
+  .full-gallery h1{
+    font-size: 400%;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .full-gallery{
+    margin-left: 10%;
+    width: 90%;
+  }
+  .full-gallery p{
+    font-size: 100%;
+  }
+  .full-gallery h1{
+    font-size: 220%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .full-gallery{
+    margin-left: 10%;
+    width: 90%;
+  }
+  .full-gallery p{
+    font-size: 90%;
+  }
+  .full-gallery h1{
+    font-size: 200%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .full-gallery{
+    margin-left: 0;
+    width: 120%;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .full-gallery{
+    margin-left: 0;
+    width: 120%;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .full-gallery{
+    margin-left: 0;
+    width: 120%;
+  }
+}

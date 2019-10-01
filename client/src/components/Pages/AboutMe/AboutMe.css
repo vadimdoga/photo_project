@@ -1,0 +1,99 @@
+.About {
+  margin-left: 10%;
+}
+.About p {
+  color: darkgray;
+  text-align: center;
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.About h1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 4px 3px #ffcfca;
+  text-align: center;
+  color:#367c7c;
+}
+.About img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 65%;
+  height: auto;
+  position: relative;
+}
+@media only screen and (max-width: 2560px) {
+  .About{
+    margin-left: 10%;
+    width: 90%;
+  }
+  .About p{
+    font-size: 200%;
+  }
+  .About h1{
+    font-size: 400%;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .About{
+    margin-left: 10%;
+    width: 90%;
+  }
+  .About p{
+    font-size: 100%;
+  }
+  .About h1{
+    font-size: 220%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .About{
+    margin-left: 10%;
+    width: 90%;
+  }
+  .About p{
+    font-size: 90%;
+  }
+  .About h1{
+    font-size: 200%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .About{
+    margin-left: 0;
+    width: 120%;
+  }
+  .About h1{
+    text-align: center;
+  }
+  .About p{
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .About{
+    margin-left: 0;
+    width: 120%;
+  }
+  .About h1{
+    text-align: center;
+  }
+  .About p{
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .About{
+    margin-left: 0;
+    width: 120%;
+  }
+  .About h1{
+    text-align: center;
+  }
+  .About p{
+    text-align: center;
+  }
+}
