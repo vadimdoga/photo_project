@@ -57,7 +57,6 @@ class Builder extends React.Component {
               src={close_icon}
               onClick={this.handleClose.bind(this)}
             />
-            <p>Adelina Vasiliev</p>
             <Link
               href="general"
               to="general"

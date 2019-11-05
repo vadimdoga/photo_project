@@ -15,12 +15,12 @@ import photo_10 from '../../../assets/gallery_photos/photo_10.jpg'
 import photo_11 from '../../../assets/gallery_photos/photo_11.jpg'
 import photo_12 from '../../../assets/gallery_photos/photo_12.jpg'
 import photo_13 from '../../../assets/gallery_photos/photo_13.jpg'
-
+import File from './File/File'
 const Gallery = () => {
   return(
     <div className="full-gallery">
       <div className="Gallery">
-        <h1>Gallery</h1>
+        <h1>Portfolio</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
       <div className="container">
@@ -66,7 +66,7 @@ const Gallery = () => {
         <div className="flex-item">
           <GalleryImage imageName="photo13" imageURL={photo_13} /> 
         </div>
-
+        <File />
         </div>
     </div>
   )
